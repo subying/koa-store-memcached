@@ -7,7 +7,7 @@
 const Memcached = require('memcached');
 var EventEmitter = require('events');
 
-class sessionMemcached extends EventEmitter{
+class storeMemcached extends EventEmitter{
     constructor(serverLocations, options){
         super();
         var memcached = new Memcached(serverLocations, options);
@@ -72,4 +72,4 @@ class sessionMemcached extends EventEmitter{
     }
 }
 
-module.exports = sessionMemcached;
+module.exports = storeMemcached;
