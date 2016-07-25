@@ -1,0 +1,29 @@
+{
+  "name": "koa-session-memcached",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=4.4"
+  },
+  "author": {
+    "name": "subying",
+    "email": "tearlight2008@gmail.com"
+  },
+  "homepage": "https://github.com/subying/koa-session-memcached.git",
+  "description": "koa session memcached",
+  "main": "index.js",
+  "keywords": [
+    "koa",
+    "session",
+    "memcached",
+    "koa-generic-session"
+  ],
+  "dependencies": {
+    "memcached": "^2.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subying/koa-session-memcached.git"
+  },
+  "license": "MIT"
+}
