@@ -1,8 +1,8 @@
 {
   "name": "koa-store-memcached",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
-    "node": ">=4.4"
+    "node": ">=4.2"
   },
   "author": {
     "name": "subying",
